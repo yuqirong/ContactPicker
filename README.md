@@ -1,9 +1,11 @@
 # ContactDemo
-ÁªÏµÈËÁĞ±í£º
-·Ö×éµ¼º½£º
+<p>è”ç³»äººåˆ—è¡¨ï¼š</p>
+åˆ†ç»„å¯¼èˆªï¼š
 ![image](http://github.com/yuqirong/ContactDemo/raw/master/screenshots/MI_20150816_114712.png)
-×ÖÄ¸±í¿ìËÙ¹ö¶¯£º
+<br>
+å­—æ¯è¡¨å¿«é€Ÿæ»šåŠ¨ï¼š
 ![image](http://github.com/yuqirong/ContactDemo/raw/master/screenshots/MI_20150816_115240.png)
-Ä£ºı²éÑ¯(Ö§³Öºº×ÖºÍÆ´Òô)£º
+<br>
+æ¨¡ç³ŠæŸ¥è¯¢(æ”¯æŒæ±‰å­—å’Œæ‹¼éŸ³)ï¼š
 ![image](http://github.com/yuqirong/ContactDemo/raw/master/screenshots/MI_20150816_114752.png)
 ![image](http://github.com/yuqirong/ContactDemo/raw/master/screenshots/MI_20150816_114821.png)
