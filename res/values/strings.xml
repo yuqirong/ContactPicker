@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contact_Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_contact">搜索联系人</string>
+    <string name="no_contact">没有找到联系人</string>
+
+</resources>
