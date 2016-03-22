@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/searchBarContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/search_bg"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dip"
+            android:background="@drawable/search_puin"
+            android:hint="@string/search_contact"
+            android:maxLines="1"
+            android:paddingLeft="5dip"
+            android:paddingRight="25dip"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/iv_search_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/icon_search"
+            android:scaleType="fitCenter" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchBarContainer"
+        android:scrollbars="none" />
+
+    <com.yuqirong.contactpicker.view.QuickIndexBar
+        android:id="@+id/qib"
+        android:layout_width="25dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/searchBarContainer"
+        android:background="#aa000000" />
+
+    <TextView
+        android:id="@+id/tv_center"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_index"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="32sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_no_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/no_contact"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

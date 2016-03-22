@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuickIndexBar">
+        <attr name="font_color" format="color|reference"></attr>
+        <attr name="selected_font_color" format="color|reference"></attr>
+        <attr name="font_size" format="dimension|reference"></attr>
+    </declare-styleable>
+</resources>
