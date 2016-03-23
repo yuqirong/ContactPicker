@@ -13,6 +13,9 @@
 
 [Download](https://github.com/yuqirong/ContactPicker/blob/master/screenshots/app-debug-unaligned.apk)
 
+##博客 Blog##
+[《快速打造仿Android联系人界面》](http://yuqirong.me/2016/03/22/%E5%BF%AB%E9%80%9F%E6%89%93%E9%80%A0%E4%BB%BFAndroid%E8%81%94%E7%B3%BB%E4%BA%BA%E7%95%8C%E9%9D%A2/)
+
 ##用法 Usage##
 ###step 1###
 把QuickIndexBar控件添加到你的布局文件中。(Include the QuickIndexBar widget in your layout.)
@@ -40,6 +43,16 @@
 		});
 
 好了，享受吧！(Well, enjoy it!)
+
+##自定义属性 Customization##
+你可在下面属性中自定义任何你想要的。(You can customize any of the following properties you want.)
+
+| Name          | format        | Description |
+| ------------- |:-------------:| -----------:|
+| font_color      | color\|reference       | 字体颜色(Font Color) |
+| selected_font_color     | color\|reference      | 选中时字体的颜色(Selected Font Color) |
+| font_size | dimension\|reference     | 字体大小(Font Size) |
+
 
 ##联系方式 Contact Me##
 新浪微博 Sina Weibo：[@活得好像一条狗](http://weibo.com/yyyuqirong) 
